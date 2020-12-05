@@ -1,0 +1,64 @@
+body {
+  background:  url("../Slike/background.jpg.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;    /*  ovo ide u dokumentaciju */
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: green;
+}
+
+.navbar-item {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  margin-right: 80px;
+  padding: 14px 16px;
+  text-decoration: none;
+  -webkit-text-stroke: 0.25px rgb(4, 75, 1);
+}
+
+.navbar-item:hover {
+  background-color: rgb(0, 70, 3);
+  cursor: default;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-container {
+  max-width: 1170px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img{
+  transition: all .2s ease-in-out;
+}
+
+.gallery img {
+  max-width: 30%;
+  height: auto;
+  margin: 10px;
+}
+
+.gallery img:hover {
+  transform: scale(1.1) ;
+  
+}
