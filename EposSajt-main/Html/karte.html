@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Beogradski Zoo-vrt</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../Css/style.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <ul class="navbar-list">
+        <li class="navbar-item" id="navbar-homepage">Home Page</li>
+        <li class="navbar-item" id="navbar-galerija">Galerija</li>
+        <li class="navbar-item" id="navbar-zivotinje">Zivotinje</li>
+        <li class="navbar-item" id="navbar-karte">Karte</li>
+      </ul>
+    </div>
+
+    <h1 style="text-align: center">Ulaznice</h1>
+
+    <div class="content">
+      <div class="ulaznice-form">
+        <form action="">
+          <p>
+            <u><b>Rezervacija karata</b> </u>
+          </p>
+          <br />
+
+          <label for="ime">Ime:</label><br />
+          <input type="text" required class="inputField" /><br />
+          <label for="prezime">Prezime:</label><br />
+          <input type="text" required class="inputField" /><br />
+          <label for="email">E-mail:</label><br />
+          <input type="email" required class="inputField" /><br /><br />
+          <label for="karte">Karta za:</label><br />
+          <select class="karteCene">
+            <option value="deca">Do 7 godina - 150din</option>
+            <option value="djaci">Od 7 do 18 godina - 300din</option>
+            <option value="studenti">Studenti - 350din</option>
+            <option value="ostali">Stariji - 500din</option></select
+          ><br /><br />
+          <input type="submit" value="Potvrda" />
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="grid-container">
+        <div class="radnovr">
+          <h1>Radno vreme</h1>
+          <p>Radimo 7 dana u nedelji od 09:00 do 17:00 časova</p>
+        </div>
+        <div class="kontakt">
+          <h1>Kontakt</h1>
+          <p>Lokacija: Mali Kalemegdan 8, 11000 Beograd</p>
+          <p>Telefon: 0112624526</p>
+          <p>Email: office@beozoovrt.rs</p>
+          <p>Pratite nas:</p>
+          <p>
+            Mislila sam da ubacimo ikonice za fb, insta, yt i twitter i kao
+            linkove ka tome
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="../JavaScript/script-karte.js"></script>
+  </body>
+</html>
